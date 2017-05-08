@@ -1,0 +1,29 @@
+{
+    "name": "synonyms-pl",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha tests/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xerq/synonyms-pl.git"
+    },
+    "keywords": [
+        "synonyms",
+        "polish",
+        "pl",
+        "synonimy"
+    ],
+    "author": "xerq",
+    "license": "MIT",
+    "dependencies": {
+        "cheerio": "^0.22.0",
+        "promise": "^7.1.1",
+        "request": "^2.81.0"
+    },
+    "devDependencies": {
+        "mocha": "^3.3.0"
+    }
+}
