@@ -1,6 +1,6 @@
 var synonyms = require("../index.js");
 
-var words = ["jestem", "tam"];
+var words = ["jestem", "tam", "człowiek"];
 
 words.map(function(word) {
     describe("Get synonyms for word " + word, function() {
